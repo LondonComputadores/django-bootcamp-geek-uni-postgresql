@@ -29,4 +29,4 @@ MySQL libmysqlclient-dev
 
 )
 
-[<img src="FusionScreenshot.png">]
+<img src="FusionScreenshot.png">
