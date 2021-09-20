@@ -10,14 +10,13 @@ This is a Django Bootcamp from Udemy by Geek University as a Recap where will be
 #### Link Application 3: This Repo
 
 
-## What's going on Application 1: Django Basics Recap
+## What's going on Application 3: Django Advanced Recap
 
 Terminal's issued commands:
 
 - $ python -m venv venv
 - $ source venv/bin/activate
-- $ pip install django whitenoise gunicorn django-bootstrap4 PyMySQL
-MySQL libmysqlclient-dev
+- $ pip install django psycopg2-binary gunicorn dj-static
 - $ pip freeze > requirements.txt
 - $ django-admin startproject fusion .
 - $ python manage.py startapp app
