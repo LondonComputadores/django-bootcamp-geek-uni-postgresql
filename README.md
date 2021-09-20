@@ -25,4 +25,8 @@ MySQL libmysqlclient-dev
 - $ python manage.py makemigrations
 - $ python manage.py migrate
 - $ python manage.py createsuperuser
-- $ python manage.py shell
+- $ python manage.py shell(
+
+)
+
+[<img src="FusionScreenshot.png">]
