@@ -5,7 +5,7 @@ This is a Django Bootcamp from Udemy by Geek University as a Recap where will be
 
 #### Link Application 1: https://github.com/LondonComputadores/django-bootcamp-geek-uni-sqlite
 
-#### Link Application 2: https://github.com/LondonComputadores/django-bootcamp-geek-uni-postgresql
+#### Link Application 2: https://github.com/LondonComputadores/django-bootcamp-geek-uni-mysql
 
 #### Link Application 3: This Repo
 
