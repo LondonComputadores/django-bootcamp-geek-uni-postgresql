@@ -1,5 +1,6 @@
 import uuid
 from django.db import models
+from stdimage import StdImageField
 
 
 def get_file_path(_instance, filename):
@@ -52,9 +53,10 @@ class Job(Base):
 class Team(Base):
     name = models.CharField('Name', max_length=100)
     job = models.ForeignKey('app.Job', verbose_name='Job',
-                                         on_delete=models.CASCADE)
+                                                on_delete=models.CASCADE)
     bio = models.TextField('Bio', max_length=100)
-    image = models.ImageField('Image', upload_to=get_file_path)
+    image = StdImageField('Image', upload_to=get_file_path, variations={
+                'thumbnail': {"width": 480, "height": 480, "crop": True}})
     facebook = models.CharField('Facebook', max_length=100, default='#')
     twitter = models.CharField('Twitter', max_length=100, default='#')
     instagram = models.CharField('Instagram', max_length=100, default='#')
